@@ -1,0 +1,178 @@
+
+	#topbar {
+	
+		 width:1200px;
+		 margin:0 auto;
+		 height:40px;
+		 }
+
+		 body{
+		 margin:0;
+		 padding:0;
+		 font-family: Helvetica,Arial,sans-serif;
+		 }
+	#logo {
+	margin:8px;
+	width:100px;
+	float:left;
+	margin-right:8px;
+	}
+	.topbar-section {
+	float:left;
+	border-left:1px #CCCCCC solid;
+	height:100%;
+	}
+	#signin-image {
+	width:30px;
+	margin-top:8px;
+	margin-left:15px;
+	float:left;
+	}
+	#signin-text {
+	font-weight: bold;
+	font-size:90%;
+	position:relative;
+	top:16px;
+	left:8px;
+	padding-right:50px;
+	}
+	#signin-div {
+	float:left;
+	}
+	.topbar-section {
+	}
+	.topbar-menu {
+	font-weight: bold;
+	font-size:90%;
+	padding: 16px 15px 0 15px;
+	height:24;
+	}
+	#more-arrow {
+	width:20px;
+	margin:0 0 0 50px;
+	float:right;
+	}
+	#search-box {
+	background-color:#E4E4E4;
+	border:none;
+	font-weight: bold;
+	font-size: 14px;
+	margin:5px 0 5px 5px;
+	padding:5px;
+	float:left;
+	}
+	#search {
+	height:27px;
+	margin-top:5px;
+	}
+	
+	#secondbar {
+	width:auto;
+	height:60px;
+	background-color:#BB1919;
+	}
+	#news {
+	color:white;
+	font-size:50;
+	position:relative;
+	right:110px;
+	}
+
+	#thirdbar {
+	width:auto;
+	height:30px;
+	background-color:#A91717;
+	}
+	 body{
+		 margin:0;
+		 padding:0;
+		 font-family: Helvetica,Arial,sans-serif;
+		 }
+	.special a{
+	float:left;
+	padding:5px;
+	margin-left:169px;
+	color:white;
+	font-size:15px;
+	}
+	.thirdbar-section a{
+	float:left;
+	border-left:1px #BA4343 solid;
+	font-size:15px;
+	padding:0 10px;
+	color:white;
+	position: relative;
+	top:5px;
+	}
+	#more-arrow2 {
+	height:1px;
+	float:left;
+	margin-top:3px;
+	}
+#secondbar a {
+text-decoration:none;
+color:white;
+}
+#thirdbar a {
+text-decoration:none;
+color:white;
+}
+.clear {
+float:clear;
+}
+#page-container {
+width:1000px;
+margin: 0 auto;
+float:left;
+}
+h2 {
+font-weight:normal;
+margin-top:5px;
+margin-left:175px;
+font-size:20px;
+border-bottom: 2px solid #BB1919;
+width:102px;
+}	
+h3 a{
+font-weight:bold;
+font-size:26px;
+text-decoration:none;
+color:#1D1D1B;
+margin-left:175px;
+}	
+h3 a:hover {
+color:#1167B9;
+}
+#article-summary {
+color:#5A5A5A;
+width:260px;
+margin-left:175px;
+}
+#sub-article-summary {
+width:270px;
+margin-left:170px;
+color:#5A5A5A;
+}
+#clock {
+position:relative;
+top:3px;
+}
+#chat {
+position:relative;
+top:4px;
+right:3px;
+}
+a.Tech1{
+text-decoration:none;
+color:red;
+}
+a.Tech1:hover{
+color:#116AB2;
+}
+#car {
+float:right;
+width:350px;
+margin-right:190px;
+position:relative;
+bottom:135px;
+}
