@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<title>jAVASCRIPT</title>
+</head>
+
+<body>
+
+<p id="text">Hello World!</p>
+<button id="myButton">Change text</button>
+<p id="secondParagraph">
+  Javascript is....
+</p>
+<button id="my2Button">Click here to change content of p2</button>
+<p id="empty">
+
+</p>
+<button id="my3Button">Magic</button>
+
+<script type="text/javascript">
+    /*c'est génial */
+    document.getElementById("text").innerHTML = "Hello Ben!"
+
+    document.getElementById("myButton").onclick = function () {
+      document.getElementById("text").innerHTML = "LOL TROP MARRANT";
+    }
+
+    document.getElementById("my2Button").onclick = function () {
+      document.getElementById("secondParagraph").innerHTML = "I think" + document.getElementById("secondParagraph").innerHTML + "EASY !";
+    }
+
+    document.getElementById("my3Button").onclick = function () {
+      document.getElementById("empty").innerHTML = "test";
+    }
+</script>
+
+</body>
+
+</html>
